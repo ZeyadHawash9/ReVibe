@@ -5,7 +5,8 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-
+                    <div id=”example”></div>
+                    <script src="{{ asset('/js/app.js') }}"></script>
                     <div class="card-header">{{ __('Dashboard') }}</div>
 
                     <div class="card-body">
@@ -15,8 +16,10 @@
                             </div>
                         @endif
                         <div id="example"></div>
+                        <div id="example2"></div>
+
                         <script src="{{ asset('/js/app.js') }}"></script>
-                        {{ __('You are  in!') }}
+                        {{ __('You are ww in!') }}
                     </div>
                 </div>
             </div>
